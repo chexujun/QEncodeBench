@@ -1,0 +1,13 @@
+# Qwen2.5-Coder-7B served locally, greedy n=1 over the full frozen set.
+# Source rows for the degraded-scoring study (scripts/scoring_degradation.py);
+# Table 2's 7B row comes from runs/qeb_opensource_table2 instead.
+run_id: e1_c_group_greedy
+instances_path: data/frozen_v1/instances.jsonl
+solutions_path: data/frozen_v1/solutions.jsonl
+models: [qwen2.5-coder-7b]
+method: direct
+prompt_variant: verbose
+n_samples: 1
+temperature: 0.0
+run_budget_usd: 1.0
+runs_dir: runs

@@ -1,0 +1,71 @@
+You are an expert quantum programmer.
+
+## Your task
+
+Implement a Grover-style PHASE ORACLE for the classical problem given at
+the end of this prompt, as a Python function using Qiskit:
+
+```python
+def build_oracle(qc: QuantumCircuit, problem_qubits: list[int],
+                 ancilla_qubits: list[int]) -> None:
+    ...
+```
+
+Semantics (must hold EXACTLY, for every computational basis state):
+- For each basis state |x> with f(x) = 1, apply phase -1; leave every basis
+  state with f(x) = 0 unchanged.  (An overall global phase on the whole
+  oracle is irrelevant and accepted.)
+- Bit i of x lives on problem_qubits[i] (x = sum_i x_i * 2^i).
+- EVERY ancilla qubit must be returned to |0> for every input (use the
+  compute -> phase -> uncompute discipline).
+- The oracle must be a diagonal operator in the computational basis: no
+  measurement, no reset, and it must not permute or mix basis states.
+
+Rules:
+- Build the circuit by appending standard gates to `qc` in place
+  (x, cx, ccx, mcx, z, cz, h, p, mcp, ...).  Do not create a new circuit,
+  do not add registers, do not measure.
+- FORBIDDEN (checked and rejected): qc.unitary, qc.diagonal, qc.initialize,
+  qc.prepare_state, UnitaryGate, qiskit.quantum_info (Operator/Statevector),
+  and classical brute-force enumeration of all solutions baked into gates.
+- Allowed imports: qiskit, numpy, math.
+
+Output format: reply with ONE ```python code block containing the complete
+build_oracle function (plus any imports it needs). No other code.
+
+## Worked toy example (a DIFFERENT problem: parity)
+
+Suppose f(x) = x0 XOR x1 over 2 problem qubits (mark states 01 and 10).
+A correct implementation computes the predicate into an ancilla, applies a
+Z gate for the phase, then UNCOMPUTES the ancilla so it ends in |0>:
+
+```python
+def build_oracle(qc, problem_qubits, ancilla_qubits):
+    a = ancilla_qubits[0]
+    qc.cx(problem_qubits[0], a)   # compute: a = x0 xor x1
+    qc.cx(problem_qubits[1], a)
+    qc.z(a)                       # phase: -1 iff a == 1
+    qc.cx(problem_qubits[1], a)   # uncompute (mirror of compute)
+    qc.cx(problem_qubits[0], a)
+```
+
+## Problem
+
+We must complete a 3x3 Latin square: every row and every column must contain the values 0, 1, 2 exactly once.
+The partially filled grid is (rows top to bottom, '.' = free cell):
+  . 1 0
+  0 2 1
+  1 0 .
+
+The free cells, in order, are (row, col): (0,0), (2,2).  Free cell number j is the j-th in this list.
+Cell value code (2 qubits per free cell): free cell number j uses low bit b0 = problem_qubits[2j] and high bit b1 = problem_qubits[2j+1]; code c = b0 + 2*b1.
+Decoding is SURJECTIVE: 00 -> value 0, 01 -> value 1, 10 -> value 2, and 11 ALSO decodes to value 0.  All codes are legal.
+Worked example with the 11 code: if a free cell has code 11 it holds value 0; placing it in a row that already contains a given 0 VIOLATES the all-different constraint.
+
+The classical predicate is f(x) = 1 if and only if decoding all free cells yields a completed grid that is a valid Latin square.
+
+## Resource budget for this instance
+
+- 13 total qubits are provided: 4 problem qubits + 9 ancillas.
+- Transpiled depth (basis ['rz','sx','x','cx'], optimization_level=1) must
+  be at most 1908.

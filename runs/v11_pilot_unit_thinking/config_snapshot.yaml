@@ -1,0 +1,16 @@
+agent_options: {}
+concurrency: 16
+instances_path: data/pilot_v11/instances.jsonl
+max_tokens: 4096
+method: unit_agent
+models:
+- deepseek-v4-flash-thinking
+n_samples: 3
+prompt_variant: verbose
+run_budget_usd: 8.0
+run_id: v11_pilot_unit_thinking
+runs_dir: runs
+solutions_path: data/pilot_v11/solutions.jsonl
+task_filter: []
+task_sample: null
+temperature: 0.7

@@ -1,0 +1,16 @@
+agent_options: {}
+concurrency: 48
+instances_path: data/frozen_v1/instances.jsonl
+max_tokens: 3000
+method: direct
+models:
+- Qwen2.5-Coder-7B
+n_samples: 1
+prompt_variant: verbose
+run_budget_usd: null
+run_id: qwen25coder7b
+runs_dir: runs
+solutions_path: data/frozen_v1/solutions.jsonl
+task_filter: []
+task_sample: null
+temperature: 0.0

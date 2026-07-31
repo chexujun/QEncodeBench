@@ -1,0 +1,33 @@
+2026-07-04 12:37:39,323 INFO run e6_pilot_bo3_thinking: 54 instances x 1 models x 3 samples = 162 (already done: 0)
+2026-07-04 12:37:39,323 INFO generation with 8 workers
+2026-07-04 12:43:28,627 INFO progress 20/162 | spent $0.06 | ETA 0:41:20
+2026-07-04 12:53:04,945 INFO progress 40/162 | spent $0.19 | ETA 0:47:03
+2026-07-04 13:05:13,830 INFO progress 60/162 | spent $0.33 | ETA 0:46:52
+2026-07-04 13:16:24,184 INFO progress 80/162 | spent $0.46 | ETA 0:39:42
+2026-07-04 13:18:20,253 INFO run e6_pilot_bo3_thinking: 54 instances x 1 models x 3 samples = 162 (already done: 84)
+2026-07-04 13:18:20,253 INFO generation with 16 workers
+2026-07-04 13:21:39,747 INFO progress 100/162 | spent $0.03 | ETA 0:02:03
+2026-07-04 13:24:26,760 INFO progress 120/162 | spent $0.10 | ETA 0:02:08
+2026-07-04 13:26:20,816 INFO progress 140/162 | spent $0.15 | ETA 0:01:15
+2026-07-04 13:31:22,479 INFO progress 160/162 | spent $0.23 | ETA 0:00:09
+2026-07-04 13:32:32,901 INFO completeness: expected 162, present 162, missing 0
+2026-07-04 13:32:32,927 INFO verification: 162 rows to verify (0 already done)
+2026-07-04 13:32:39,922 INFO verified 20/162 | pass rates L1:100% L2:90% L3:83% L4:100% | 7.0s elapsed
+2026-07-04 13:33:21,157 INFO verified 40/162 | pass rates L1:92% L2:86% L3:62% L4:80% | 48.2s elapsed
+2026-07-04 13:33:43,051 INFO verified 60/162 | pass rates L1:82% L2:82% L3:57% L4:83% | 70.1s elapsed
+2026-07-04 13:33:52,131 INFO verified 80/162 | pass rates L1:80% L2:80% L3:55% L4:86% | 79.2s elapsed
+2026-07-04 13:33:58,656 INFO verified 100/162 | pass rates L1:83% L2:84% L3:61% L4:91% | 85.7s elapsed
+2026-07-04 13:34:11,228 INFO verified 120/162 | pass rates L1:86% L2:85% L3:64% L4:93% | 98.3s elapsed
+2026-07-04 13:34:17,607 INFO verified 140/162 | pass rates L1:87% L2:84% L3:62% L4:94% | 104.7s elapsed
+2026-07-04 13:34:25,135 INFO verified 160/162 | pass rates L1:89% L2:85% L3:64% L4:95% | 112.2s elapsed
+2026-07-04 13:34:25,620 INFO verification complete: 162 rows
+2026-07-04 17:08:53,816 INFO verification: 175 rows to verify (0 already done)
+2026-07-04 17:09:06,154 INFO verified 20/175 | pass rates L1:100% L2:90% L3:83% L4:100% | 12.3s elapsed
+2026-07-04 17:10:53,807 INFO verified 40/175 | pass rates L1:92% L2:86% L3:62% L4:80% | 120.0s elapsed
+2026-07-04 17:13:22,095 INFO verified 60/175 | pass rates L1:82% L2:82% L3:57% L4:83% | 268.3s elapsed
+2026-07-04 17:13:37,898 INFO verified 80/175 | pass rates L1:80% L2:80% L3:55% L4:86% | 284.1s elapsed
+2026-07-04 17:13:49,868 INFO verified 100/175 | pass rates L1:83% L2:84% L3:61% L4:91% | 296.1s elapsed
+2026-07-04 17:14:28,014 INFO verified 120/175 | pass rates L1:86% L2:85% L3:64% L4:93% | 334.2s elapsed
+2026-07-04 17:14:38,214 INFO verified 140/175 | pass rates L1:87% L2:84% L3:62% L4:94% | 344.4s elapsed
+2026-07-04 17:14:52,663 INFO verified 160/175 | pass rates L1:89% L2:85% L3:64% L4:95% | 358.8s elapsed
+2026-07-04 17:15:05,037 INFO verification complete: 175 rows

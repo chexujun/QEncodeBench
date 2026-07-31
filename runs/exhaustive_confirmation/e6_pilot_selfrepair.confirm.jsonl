@@ -1,0 +1,14 @@
+{"key": ["latin_square-T3-s0002", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.87}
+{"key": ["string_match-T1-s0001", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.35}
+{"key": ["string_match-T2-s0002", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.28}
+{"key": ["string_match-T2-s0001", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.35}
+{"key": ["3sat-T2-s0001", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.33}
+{"key": ["3sat-T3-s0002", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 1.45}
+{"key": ["subset_sum-T1-s0001", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.29}
+{"key": ["subset_sum-T1-s0002", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.26}
+{"key": ["subset_sum-T2-s0002", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.31}
+{"key": ["latin_square-T1-s0001", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.66}
+{"key": ["latin_square-T1-s0000", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.29}
+{"key": ["latin_square-T2-s0002", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 1.41}
+{"key": ["string_match-T3-s0001", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 2.83}
+{"key": ["string_match-T3-s0000", "deepseek-v4-flash", "selfrepair", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.6}

@@ -1,0 +1,16 @@
+agent_options: {}
+concurrency: 12
+instances_path: data/frozen_v1/instances.jsonl
+max_tokens: 4096
+method: nsc
+models:
+- deepseek-v4-flash
+n_samples: 3
+prompt_variant: verbose
+run_budget_usd: 3.0
+run_id: e6_pilot_nsc_v4_bo3
+runs_dir: runs
+solutions_path: data/frozen_v1/solutions.jsonl
+task_filter: []
+task_sample: 60
+temperature: 0.7

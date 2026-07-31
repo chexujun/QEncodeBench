@@ -1,0 +1,64 @@
+You are an expert quantum programmer.
+
+## Your task
+
+Implement a Grover-style PHASE ORACLE for the classical problem given at
+the end of this prompt, as a Python function using Qiskit:
+
+```python
+def build_oracle(qc: QuantumCircuit, problem_qubits: list[int],
+                 ancilla_qubits: list[int]) -> None:
+    ...
+```
+
+Semantics (must hold EXACTLY, for every computational basis state):
+- For each basis state |x> with f(x) = 1, apply phase -1; leave every basis
+  state with f(x) = 0 unchanged.  (An overall global phase on the whole
+  oracle is irrelevant and accepted.)
+- Bit i of x lives on problem_qubits[i] (x = sum_i x_i * 2^i).
+- EVERY ancilla qubit must be returned to |0> for every input (use the
+  compute -> phase -> uncompute discipline).
+- The oracle must be a diagonal operator in the computational basis: no
+  measurement, no reset, and it must not permute or mix basis states.
+
+Rules:
+- Build the circuit by appending standard gates to `qc` in place
+  (x, cx, ccx, mcx, z, cz, h, p, mcp, ...).  Do not create a new circuit,
+  do not add registers, do not measure.
+- FORBIDDEN (checked and rejected): qc.unitary, qc.diagonal, qc.initialize,
+  qc.prepare_state, UnitaryGate, qiskit.quantum_info (Operator/Statevector),
+  and classical brute-force enumeration of all solutions baked into gates.
+- Allowed imports: qiskit, numpy, math.
+
+Output format: reply with ONE ```python code block containing the complete
+build_oracle function (plus any imports it needs). No other code.
+
+## Worked toy example (a DIFFERENT problem: parity)
+
+Suppose f(x) = x0 XOR x1 over 2 problem qubits (mark states 01 and 10).
+A correct implementation computes the predicate into an ancilla, applies a
+Z gate for the phase, then UNCOMPUTES the ancilla so it ends in |0>:
+
+```python
+def build_oracle(qc, problem_qubits, ancilla_qubits):
+    a = ancilla_qubits[0]
+    qc.cx(problem_qubits[0], a)   # compute: a = x0 xor x1
+    qc.cx(problem_qubits[1], a)
+    qc.z(a)                       # phase: -1 iff a == 1
+    qc.cx(problem_qubits[1], a)   # uncompute (mirror of compute)
+    qc.cx(problem_qubits[0], a)
+```
+
+## Problem
+
+We have 3 positive integers: a = [5, 3, 2].
+Qubit i (problem_qubits[i]) encodes whether element a[i] is selected (1 = selected).
+
+The classical predicate is f(x) = 1 if and only if the sum of the selected elements equals the target T = 5.
+For example, f(x) = 1 when the bits of x select a subset of a whose values add up to exactly 5; otherwise f(x) = 0.
+
+## Resource budget for this instance
+
+- 7 total qubits are provided: 3 problem qubits + 4 ancillas.
+- Transpiled depth (basis ['rz','sx','x','cx'], optimization_level=1) must
+  be at most 2080.

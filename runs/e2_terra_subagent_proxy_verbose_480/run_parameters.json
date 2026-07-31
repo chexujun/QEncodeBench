@@ -1,0 +1,27 @@
+{
+  "canonical_response_pattern": "responses/{index:03d}_{task_id}.md",
+  "fork_turns": "none",
+  "fresh_solver_per_instance": true,
+  "frozen_instances_path": "data/frozen_v1/instances.jsonl",
+  "frozen_instances_sha256": "0d17ac2de74a10afcd9d4be5fff3668d057e97f03c184e9a4c03c8212c80973a",
+  "import_convention": {
+    "allowed_import_roots": [
+      "qiskit",
+      "numpy",
+      "math"
+    ],
+    "enforcement": "Prompt contract only. The current verifier bans selected bypass APIs but does not implement a general import allowlist.",
+    "source": "qencodebench.prompts.templates._VERBOSE_STATIC"
+  },
+  "max_threads_configured": 20,
+  "method": "subagent_proxy",
+  "model_profile": "Terra user-interface profile; exact model ID and reasoning parameters unavailable",
+  "n_samples_per_instance": 1,
+  "prompt_builder": "qencodebench.prompts.build_prompt",
+  "prompt_variant": "verbose",
+  "run_id": "e2_terra_subagent_proxy_verbose_480",
+  "schema_version": "1.0",
+  "solver_message_mode": "intended_exact_build_prompt_verbose; actual transport not independently attested",
+  "solver_message_wrapper": null,
+  "solver_tool_policy": "No additional tool-control text is appended, so the solver message remains byte-identical to build_prompt(..., 'verbose'). Platform-level tool availability is not auditable here."
+}

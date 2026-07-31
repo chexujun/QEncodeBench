@@ -1,0 +1,11 @@
+run_id: e6_fewshot_nothink
+instances_path: data/frozen_v1/instances.jsonl
+solutions_path: data/frozen_v1/solutions.jsonl
+models: [deepseek-v4-flash]
+method: fewshot
+prompt_variant: verbose
+n_samples: 5
+temperature: 0.7
+run_budget_usd: 5.0
+runs_dir: runs
+concurrency: 24

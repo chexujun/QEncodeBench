@@ -1,0 +1,29 @@
+{
+  "canonical_responses": 480,
+  "final_verification_artifact": "verification_final_canonical_retry.jsonl",
+  "infra": 0,
+  "levels": {
+    "L1": {
+      "denominator": 480,
+      "pass": 477
+    },
+    "L2": {
+      "denominator": 477,
+      "pass": 460
+    },
+    "L3": {
+      "denominator": 460,
+      "pass": 396
+    },
+    "L4": {
+      "denominator": 396,
+      "pass": 385
+    }
+  },
+  "l4_end_to_end": {
+    "denominator": 480,
+    "pass": 385
+  },
+  "total": 480,
+  "verified": 480
+}

@@ -1,0 +1,11 @@
+run_id: e1_b_deepseek
+instances_path: data/frozen_v1/instances.jsonl
+solutions_path: data/frozen_v1/solutions.jsonl
+models: [deepseek-v4-flash]
+method: direct
+prompt_variant: verbose
+n_samples: 5
+temperature: 0.7
+run_budget_usd: 20.0
+runs_dir: runs
+concurrency: 8

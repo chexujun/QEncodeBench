@@ -1,0 +1,11 @@
+run_id: e1_b_ds_thinking
+instances_path: data/frozen_v1/instances.jsonl
+solutions_path: data/frozen_v1/solutions.jsonl
+models: [deepseek-v4-flash-thinking]
+method: direct
+prompt_variant: verbose
+n_samples: 1
+temperature: 0.0
+run_budget_usd: 20.0
+runs_dir: runs
+concurrency: 16

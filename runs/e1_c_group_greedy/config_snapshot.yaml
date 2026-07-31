@@ -1,0 +1,15 @@
+agent_options: {}
+instances_path: data/frozen_v1/instances.jsonl
+max_tokens: 4096
+method: direct
+models:
+- qwen2.5-coder-7b
+n_samples: 1
+prompt_variant: verbose
+run_budget_usd: 1.0
+run_id: e1_c_group_greedy
+runs_dir: runs
+solutions_path: data/frozen_v1/solutions.jsonl
+task_filter: []
+task_sample: null
+temperature: 0.0

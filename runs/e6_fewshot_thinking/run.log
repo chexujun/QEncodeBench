@@ -1,0 +1,21 @@
+2026-07-04 22:22:32,643 INFO run e6_fewshot_thinking: 54 instances x 1 models x 3 samples = 162 (already done: 0)
+2026-07-04 22:22:32,643 INFO generation with 24 workers
+2026-07-04 22:25:57,647 INFO progress 20/162 | spent $0.06 | ETA 0:24:15
+2026-07-04 22:29:15,126 INFO progress 40/162 | spent $0.16 | ETA 0:20:27
+2026-07-04 22:33:13,515 INFO progress 60/162 | spent $0.32 | ETA 0:18:09
+2026-07-04 22:35:04,690 INFO progress 80/162 | spent $0.41 | ETA 0:12:50
+2026-07-04 22:36:38,626 INFO progress 100/162 | spent $0.48 | ETA 0:08:44
+2026-07-04 22:37:27,898 INFO progress 120/162 | spent $0.55 | ETA 0:05:13
+2026-07-04 22:39:10,046 INFO progress 140/162 | spent $0.61 | ETA 0:02:36
+2026-07-04 22:42:07,014 INFO progress 160/162 | spent $0.70 | ETA 0:00:14
+2026-07-04 22:44:55,639 INFO completeness: expected 162, present 162, missing 0
+2026-07-04 22:44:55,655 INFO verification: 162 rows to verify (0 already done)
+2026-07-04 22:45:04,656 INFO verified 20/162 | pass rates L1:100% L2:95% L3:68% L4:100% | 9.0s elapsed
+2026-07-04 22:46:02,008 INFO verified 40/162 | pass rates L1:100% L2:90% L3:50% L4:78% | 66.4s elapsed
+2026-07-04 22:46:10,508 INFO verified 60/162 | pass rates L1:85% L2:90% L3:46% L4:76% | 74.9s elapsed
+2026-07-04 22:46:14,986 INFO verified 80/162 | pass rates L1:84% L2:90% L3:55% L4:85% | 79.3s elapsed
+2026-07-04 22:46:20,616 INFO verified 100/162 | pass rates L1:85% L2:91% L3:60% L4:89% | 85.0s elapsed
+2026-07-04 22:46:26,045 INFO verified 120/162 | pass rates L1:85% L2:91% L3:63% L4:92% | 90.4s elapsed
+2026-07-04 22:46:32,680 INFO verified 140/162 | pass rates L1:86% L2:91% L3:66% L4:93% | 97.0s elapsed
+2026-07-04 22:46:40,247 INFO verified 160/162 | pass rates L1:87% L2:91% L3:67% L4:94% | 104.6s elapsed
+2026-07-04 22:46:40,247 INFO verification complete: 162 rows

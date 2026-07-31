@@ -1,0 +1,16 @@
+agent_options: {}
+concurrency: 24
+instances_path: data/frozen_v1/instances.jsonl
+max_tokens: 4096
+method: fewshot
+models:
+- deepseek-v4-flash
+n_samples: 5
+prompt_variant: verbose
+run_budget_usd: 5.0
+run_id: e6_fewshot_nothink
+runs_dir: runs
+solutions_path: data/frozen_v1/solutions.jsonl
+task_filter: []
+task_sample: null
+temperature: 0.7

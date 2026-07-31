@@ -1,0 +1,11 @@
+2026-07-21 20:16:11,681 INFO run e6_full_selfrepair_thinking: 72 instances x 1 models x 1 samples = 72 (already done: 0)
+2026-07-21 20:16:11,681 INFO generation with 16 workers
+2026-07-21 20:23:09,957 INFO progress 20/72 | spent $0.12 | ETA 0:18:07
+2026-07-21 20:26:59,876 INFO progress 40/72 | spent $0.23 | ETA 0:08:38
+2026-07-21 20:28:45,005 INFO progress 60/72 | spent $0.32 | ETA 0:02:30
+2026-07-21 20:34:59,660 INFO completeness: expected 72, present 72, missing 0
+2026-07-21 20:34:59,674 INFO verification: 72 rows to verify (0 already done)
+2026-07-21 20:35:03,893 INFO verified 20/72 | pass rates L1:50% L2:100% L3:100% L4:100% | 4.2s elapsed
+2026-07-21 20:35:05,809 INFO verified 40/72 | pass rates L1:48% L2:100% L3:100% L4:100% | 6.1s elapsed
+2026-07-21 20:35:09,335 INFO verified 60/72 | pass rates L1:55% L2:100% L3:97% L4:100% | 9.7s elapsed
+2026-07-21 20:35:10,750 INFO verification complete: 72 rows

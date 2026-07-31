@@ -1,0 +1,13 @@
+2026-07-04 13:53:37,888 INFO run e6_pilot_selfrepair_thinking: 54 instances x 1 models x 1 samples = 54 (already done: 0)
+2026-07-04 13:53:37,888 INFO generation with 16 workers
+2026-07-04 14:02:49,013 INFO progress 20/54 | spent $0.10 | ETA 0:15:36
+2026-07-04 14:10:24,677 INFO progress 40/54 | spent $0.29 | ETA 0:05:52
+2026-07-04 14:23:02,922 INFO completeness: expected 54, present 54, missing 0
+2026-07-04 14:23:02,945 INFO verification: 54 rows to verify (0 already done)
+2026-07-04 14:23:22,238 INFO verified 20/54 | pass rates L1:100% L2:100% L3:90% L4:100% | 19.3s elapsed
+2026-07-04 14:23:46,474 INFO verified 40/54 | pass rates L1:92% L2:100% L3:81% L4:100% | 43.5s elapsed
+2026-07-04 14:24:05,847 INFO verification complete: 54 rows
+2026-07-04 17:17:09,904 INFO verification: 54 rows to verify (0 already done)
+2026-07-04 17:17:48,603 INFO verified 20/54 | pass rates L1:100% L2:100% L3:90% L4:100% | 38.7s elapsed
+2026-07-04 17:19:30,041 INFO verified 40/54 | pass rates L1:92% L2:100% L3:81% L4:100% | 140.1s elapsed
+2026-07-04 17:20:06,114 INFO verification complete: 54 rows

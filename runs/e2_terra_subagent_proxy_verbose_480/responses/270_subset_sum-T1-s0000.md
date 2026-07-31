@@ -1,0 +1,5 @@
+```python
+def build_oracle(qc, problem_qubits, ancilla_qubits):
+    qc.cz(problem_qubits[0], problem_qubits[1])
+    qc.cz(problem_qubits[0], problem_qubits[2])
+```

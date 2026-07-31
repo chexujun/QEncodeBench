@@ -1,0 +1,13 @@
+2026-07-04 14:32:28,556 INFO run e6_pilot_qwen_dec: 54 instances x 1 models x 1 samples = 54 (already done: 0)
+2026-07-04 14:32:28,556 INFO generation with 2 workers
+2026-07-04 15:10:58,632 INFO progress 20/54 | spent $0.00 | ETA 1:05:27
+2026-07-04 15:37:34,578 INFO progress 40/54 | spent $0.00 | ETA 0:22:47
+2026-07-04 15:54:55,826 INFO completeness: expected 54, present 54, missing 0
+2026-07-04 15:54:55,878 INFO verification: 54 rows to verify (0 already done)
+2026-07-04 15:54:56,333 INFO verified 20/54 | pass rates L1:5% L2:0% | 0.5s elapsed
+2026-07-04 15:54:57,026 INFO verified 40/54 | pass rates L1:10% L2:25% L3:0% | 1.1s elapsed
+2026-07-04 15:54:57,031 INFO verification complete: 54 rows
+2026-07-04 17:24:04,222 INFO verification: 54 rows to verify (0 already done)
+2026-07-04 17:24:04,475 INFO verified 20/54 | pass rates L1:5% L2:0% | 0.3s elapsed
+2026-07-04 17:24:05,475 INFO verified 40/54 | pass rates L1:10% L2:25% L3:0% | 1.3s elapsed
+2026-07-04 17:24:05,480 INFO verification complete: 54 rows

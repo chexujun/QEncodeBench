@@ -1,0 +1,11 @@
+2026-07-21 20:16:11,681 INFO run e6_full_dec_thinking: 72 instances x 1 models x 1 samples = 72 (already done: 0)
+2026-07-21 20:16:11,681 INFO generation with 16 workers
+2026-07-21 20:23:45,187 INFO progress 20/72 | spent $0.13 | ETA 0:19:39
+2026-07-21 20:27:12,823 INFO progress 40/72 | spent $0.24 | ETA 0:08:48
+2026-07-21 20:29:54,967 INFO progress 60/72 | spent $0.33 | ETA 0:02:44
+2026-07-21 20:34:20,406 INFO completeness: expected 72, present 72, missing 0
+2026-07-21 20:34:20,424 INFO verification: 72 rows to verify (0 already done)
+2026-07-21 20:34:24,334 INFO verified 20/72 | pass rates L1:40% L2:100% L3:100% L4:100% | 3.9s elapsed
+2026-07-21 20:34:27,190 INFO verified 40/72 | pass rates L1:48% L2:100% L3:100% L4:100% | 6.8s elapsed
+2026-07-21 20:34:30,799 INFO verified 60/72 | pass rates L1:55% L2:100% L3:100% L4:100% | 10.4s elapsed
+2026-07-21 20:34:31,463 INFO verification complete: 72 rows

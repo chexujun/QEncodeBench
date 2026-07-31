@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qencodebench"
+version = "0.1.0"
+description = "QEncodeBench: benchmark for LLM classical-problem-to-quantum-oracle encoding"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Xujun Che", email = "xche@charlotte.edu" },
+    { name = "Hanhan Wu", email = "hwu28@gmu.edu" },
+    { name = "Yuchen Yuan", email = "yyuan21@gmu.edu" },
+    { name = "Chenyang Yu", email = "chenyangyu@my.unt.edu" },
+]
+dependencies = [
+    "qiskit>=1.0",
+    "qiskit-aer>=0.14",
+    "numpy",
+    "litellm",
+    "pyyaml",
+]
+
+[tool.setuptools.packages.find]
+include = ["qencodebench*"]

@@ -1,0 +1,12 @@
+run_id: e6_pilot_nsc_v4_bo3
+instances_path: data/frozen_v1/instances.jsonl
+solutions_path: data/frozen_v1/solutions.jsonl
+models: [deepseek-v4-flash]
+method: nsc
+prompt_variant: verbose
+n_samples: 3
+temperature: 0.7
+run_budget_usd: 3.0
+runs_dir: runs
+task_sample: 60   # stratified per family x tier cell; rounds to 54 (3 per cell)
+concurrency: 12

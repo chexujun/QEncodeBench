@@ -1,0 +1,16 @@
+agent_options: {}
+concurrency: 2
+instances_path: data/frozen_v1/instances.jsonl
+max_tokens: 4096
+method: selfrepair
+models:
+- qwen2.5-coder-7b
+n_samples: 1
+prompt_variant: verbose
+run_budget_usd: 1.0
+run_id: e6_pilot_qwen_selfrepair
+runs_dir: runs
+solutions_path: data/frozen_v1/solutions.jsonl
+task_filter: []
+task_sample: 60
+temperature: 0.7

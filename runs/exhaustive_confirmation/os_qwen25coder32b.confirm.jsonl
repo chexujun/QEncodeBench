@@ -1,0 +1,1 @@
+{"key": ["vertex_cover-T1-s0000", "Qwen2.5-Coder-32B", "direct", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.26}

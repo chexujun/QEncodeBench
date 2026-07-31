@@ -1,0 +1,11 @@
+run_id: v11_pilot_unit_thinking
+instances_path: data/pilot_v11/instances.jsonl
+solutions_path: data/pilot_v11/solutions.jsonl
+models: [deepseek-v4-flash-thinking]
+method: unit_agent
+prompt_variant: verbose
+n_samples: 3
+temperature: 0.7
+run_budget_usd: 8.0
+runs_dir: runs
+concurrency: 16

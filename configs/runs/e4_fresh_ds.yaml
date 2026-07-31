@@ -1,0 +1,11 @@
+run_id: e4_fresh_ds
+instances_path: data/fresh_20260703/instances.jsonl
+solutions_path: data/fresh_20260703/solutions.jsonl
+models: [deepseek-v4-flash]
+method: direct
+prompt_variant: verbose
+n_samples: 1
+temperature: 0.0
+run_budget_usd: 3.0
+runs_dir: runs
+concurrency: 6

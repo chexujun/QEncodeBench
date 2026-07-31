@@ -1,0 +1,373 @@
+2026-07-04 02:06:55,349 INFO run e1_b_deepseek: 480 instances x 1 models x 5 samples = 2400 (already done: 0)
+2026-07-04 02:06:55,350 INFO generation with 8 workers
+2026-07-04 02:07:38,154 INFO progress 20/2400 | spent $0.01 | ETA 1:24:53
+2026-07-04 02:08:06,214 INFO progress 40/2400 | spent $0.02 | ETA 1:09:41
+2026-07-04 02:08:42,847 INFO progress 60/2400 | spent $0.03 | ETA 1:09:52
+2026-07-04 02:09:17,687 INFO progress 80/2400 | spent $0.04 | ETA 1:08:47
+2026-07-04 02:09:48,468 INFO progress 100/2400 | spent $0.05 | ETA 1:06:21
+2026-07-04 02:10:23,220 INFO progress 120/2400 | spent $0.05 | ETA 1:05:49
+2026-07-04 02:11:00,251 INFO progress 140/2400 | spent $0.06 | ETA 1:05:53
+2026-07-04 02:11:35,390 INFO progress 160/2400 | spent $0.07 | ETA 1:05:20
+2026-07-04 02:12:05,642 INFO progress 180/2400 | spent $0.08 | ETA 1:03:46
+2026-07-04 02:12:44,883 INFO progress 200/2400 | spent $0.09 | ETA 1:04:04
+2026-07-04 02:13:25,364 INFO progress 220/2400 | spent $0.10 | ETA 1:04:24
+2026-07-04 02:14:04,394 INFO progress 240/2400 | spent $0.11 | ETA 1:04:21
+2026-07-04 02:14:34,111 INFO progress 260/2400 | spent $0.12 | ETA 1:02:55
+2026-07-04 02:15:05,032 INFO progress 280/2400 | spent $0.13 | ETA 1:01:47
+2026-07-04 02:15:33,029 INFO progress 300/2400 | spent $0.14 | ETA 1:00:23
+2026-07-04 02:16:06,872 INFO progress 320/2400 | spent $0.15 | ETA 0:59:44
+2026-07-04 02:16:42,585 INFO progress 340/2400 | spent $0.16 | ETA 0:59:17
+2026-07-04 02:17:19,039 INFO progress 360/2400 | spent $0.17 | ETA 0:58:54
+2026-07-04 02:17:55,203 INFO progress 380/2400 | spent $0.19 | ETA 0:58:27
+2026-07-04 02:18:45,884 INFO progress 400/2400 | spent $0.20 | ETA 0:59:12
+2026-07-04 02:19:26,785 INFO progress 420/2400 | spent $0.21 | ETA 0:59:02
+2026-07-04 02:20:15,045 INFO progress 440/2400 | spent $0.23 | ETA 0:59:22
+2026-07-04 02:20:51,242 INFO progress 460/2400 | spent $0.24 | ETA 0:58:45
+2026-07-04 02:21:27,267 INFO progress 480/2400 | spent $0.25 | ETA 0:58:07
+2026-07-04 02:21:36,421 INFO verification: 486 rows to verify (0 already done)
+2026-07-04 02:21:42,073 INFO verified 20/486 | pass rates L1:100% L2:75% L3:7% L4:100% | 5.7s elapsed
+2026-07-04 02:21:47,028 INFO verified 40/486 | pass rates L1:100% L2:75% L3:10% L4:100% | 10.6s elapsed
+2026-07-04 02:21:52,161 INFO verified 60/486 | pass rates L1:100% L2:72% L3:12% L4:100% | 15.7s elapsed
+2026-07-04 02:21:57,467 INFO verified 80/486 | pass rates L1:100% L2:66% L3:13% L4:100% | 21.0s elapsed
+2026-07-04 02:22:02,627 INFO verified 100/486 | pass rates L1:100% L2:63% L3:13% L4:100% | 26.2s elapsed
+2026-07-04 02:22:08,095 INFO verified 120/486 | pass rates L1:100% L2:62% L3:11% L4:100% | 31.7s elapsed
+2026-07-04 02:22:09,287 INFO progress 500/2400 | spent $0.26 | ETA 0:57:52
+2026-07-04 02:22:13,277 INFO verified 140/486 | pass rates L1:100% L2:62% L3:14% L4:100% | 36.9s elapsed
+2026-07-04 02:22:19,310 INFO verified 160/486 | pass rates L1:100% L2:64% L3:14% L4:100% | 42.9s elapsed
+2026-07-04 02:22:25,000 INFO verified 180/486 | pass rates L1:100% L2:63% L3:13% L4:100% | 48.6s elapsed
+2026-07-04 02:22:31,221 INFO verified 200/486 | pass rates L1:100% L2:65% L3:15% L4:100% | 54.8s elapsed
+2026-07-04 02:22:36,544 INFO verified 220/486 | pass rates L1:100% L2:65% L3:14% L4:100% | 60.1s elapsed
+2026-07-04 02:22:42,233 INFO verified 240/486 | pass rates L1:100% L2:66% L3:14% L4:100% | 65.8s elapsed
+2026-07-04 02:22:47,361 INFO verified 260/486 | pass rates L1:100% L2:67% L3:13% L4:100% | 70.9s elapsed
+2026-07-04 02:22:52,939 INFO verified 280/486 | pass rates L1:100% L2:67% L3:13% L4:100% | 76.5s elapsed
+2026-07-04 02:22:58,014 INFO verified 300/486 | pass rates L1:100% L2:67% L3:13% L4:100% | 81.6s elapsed
+2026-07-04 02:23:04,162 INFO verified 320/486 | pass rates L1:100% L2:67% L3:13% L4:100% | 87.7s elapsed
+2026-07-04 02:23:05,009 INFO progress 520/2400 | spent $0.28 | ETA 0:58:25
+2026-07-04 02:23:19,763 INFO verified 340/486 | pass rates L1:100% L2:66% L3:13% L4:100% | 103.3s elapsed
+2026-07-04 02:23:51,507 INFO verified 360/486 | pass rates L1:100% L2:65% L3:13% L4:100% | 135.1s elapsed
+2026-07-04 02:24:01,665 INFO progress 540/2400 | spent $0.30 | ETA 0:58:55
+2026-07-04 02:24:58,087 INFO progress 560/2400 | spent $0.31 | ETA 0:59:17
+2026-07-04 02:25:18,050 INFO verified 380/486 | pass rates L1:100% L2:64% L3:13% L4:100% | 221.6s elapsed
+2026-07-04 02:25:55,922 INFO progress 580/2400 | spent $0.33 | ETA 0:59:39
+2026-07-04 02:26:49,631 INFO progress 600/2400 | spent $0.34 | ETA 0:59:42
+2026-07-04 02:27:49,617 INFO progress 620/2400 | spent $0.36 | ETA 1:00:00
+2026-07-04 02:28:40,910 INFO progress 640/2400 | spent $0.38 | ETA 0:59:50
+2026-07-04 02:29:25,648 INFO verified 400/486 | pass rates L1:100% L2:64% L3:13% L4:100% | 469.2s elapsed
+2026-07-04 02:29:42,141 INFO progress 660/2400 | spent $0.39 | ETA 1:00:03
+2026-07-04 02:30:37,899 INFO progress 680/2400 | spent $0.41 | ETA 0:59:58
+2026-07-04 02:31:37,846 INFO progress 700/2400 | spent $0.42 | ETA 1:00:00
+2026-07-04 02:32:27,932 INFO progress 720/2400 | spent $0.44 | ETA 0:59:36
+2026-07-04 02:33:30,185 INFO progress 740/2400 | spent $0.45 | ETA 0:59:37
+2026-07-04 02:34:31,817 INFO progress 760/2400 | spent $0.47 | ETA 0:59:34
+2026-07-04 02:35:41,403 INFO progress 780/2400 | spent $0.49 | ETA 0:59:44
+2026-07-04 02:36:46,167 INFO progress 800/2400 | spent $0.50 | ETA 0:59:41
+2026-07-04 02:37:51,823 INFO progress 820/2400 | spent $0.52 | ETA 0:59:37
+2026-07-04 02:38:58,857 INFO progress 840/2400 | spent $0.53 | ETA 0:59:32
+2026-07-04 02:40:02,647 INFO progress 860/2400 | spent $0.55 | ETA 0:59:18
+2026-07-04 02:41:05,712 INFO progress 880/2400 | spent $0.57 | ETA 0:59:01
+2026-07-04 02:42:05,862 INFO progress 900/2400 | spent $0.58 | ETA 0:58:37
+2026-07-04 02:43:12,705 INFO progress 920/2400 | spent $0.60 | ETA 0:58:22
+2026-07-04 02:44:11,496 INFO progress 940/2400 | spent $0.62 | ETA 0:57:53
+2026-07-04 02:45:24,808 INFO progress 960/2400 | spent $0.63 | ETA 0:57:44
+2026-07-04 02:46:32,095 INFO progress 980/2400 | spent $0.65 | ETA 0:57:23
+2026-07-04 02:47:32,151 INFO progress 1000/2400 | spent $0.66 | ETA 0:56:51
+2026-07-04 02:48:18,080 INFO progress 1020/2400 | spent $0.68 | ETA 0:55:58
+2026-07-04 02:49:13,783 INFO progress 1040/2400 | spent $0.69 | ETA 0:55:19
+2026-07-04 02:50:05,775 INFO progress 1060/2400 | spent $0.70 | ETA 0:54:34
+2026-07-04 02:51:02,204 INFO progress 1080/2400 | spent $0.72 | ETA 0:53:55
+2026-07-04 02:51:56,645 INFO progress 1100/2400 | spent $0.73 | ETA 0:53:12
+2026-07-04 02:52:57,863 INFO progress 1120/2400 | spent $0.75 | ETA 0:52:37
+2026-07-04 02:54:00,600 INFO progress 1140/2400 | spent $0.76 | ETA 0:52:02
+2026-07-04 02:55:05,121 INFO progress 1160/2400 | spent $0.78 | ETA 0:51:29
+2026-07-04 02:56:19,212 INFO progress 1180/2400 | spent $0.79 | ETA 0:51:04
+2026-07-04 02:57:26,560 INFO progress 1200/2400 | spent $0.81 | ETA 0:50:31
+2026-07-04 02:58:35,229 INFO progress 1220/2400 | spent $0.83 | ETA 0:49:58
+2026-07-04 02:59:43,157 INFO progress 1240/2400 | spent $0.84 | ETA 0:49:23
+2026-07-04 03:00:56,229 INFO progress 1260/2400 | spent $0.86 | ETA 0:48:52
+2026-07-04 03:02:11,714 INFO progress 1280/2400 | spent $0.87 | ETA 0:48:21
+2026-07-04 03:03:24,039 INFO progress 1300/2400 | spent $0.89 | ETA 0:47:47
+2026-07-04 03:04:42,577 INFO progress 1320/2400 | spent $0.90 | ETA 0:47:16
+2026-07-04 03:05:27,229 INFO verification: 913 rows to verify (416 already done)
+2026-07-04 03:06:01,490 INFO progress 1340/2400 | spent $0.92 | ETA 0:46:45
+2026-07-04 03:07:02,616 INFO progress 1360/2400 | spent $0.93 | ETA 0:45:58
+2026-07-04 03:07:45,263 INFO progress 1380/2400 | spent $0.94 | ETA 0:44:57
+2026-07-04 03:08:32,245 INFO progress 1400/2400 | spent $0.95 | ETA 0:44:00
+2026-07-04 03:09:19,062 INFO progress 1420/2400 | spent $0.97 | ETA 0:43:03
+2026-07-04 03:10:03,424 INFO progress 1440/2400 | spent $0.98 | ETA 0:42:05
+2026-07-04 03:11:00,205 INFO progress 1460/2400 | spent $0.99 | ETA 0:41:15
+2026-07-04 03:11:52,281 INFO progress 1480/2400 | spent $1.00 | ETA 0:40:22
+2026-07-04 03:12:38,263 INFO progress 1500/2400 | spent $1.01 | ETA 0:39:25
+2026-07-04 03:13:30,629 INFO progress 1520/2400 | spent $1.03 | ETA 0:38:33
+2026-07-04 03:14:35,393 INFO progress 1540/2400 | spent $1.04 | ETA 0:37:47
+2026-07-04 03:15:40,877 INFO progress 1560/2400 | spent $1.05 | ETA 0:37:01
+2026-07-04 03:16:38,476 INFO progress 1580/2400 | spent $1.07 | ETA 0:36:10
+2026-07-04 03:17:45,777 INFO progress 1600/2400 | spent $1.08 | ETA 0:35:25
+2026-07-04 03:19:01,922 INFO progress 1620/2400 | spent $1.10 | ETA 0:34:43
+2026-07-04 03:20:11,704 INFO progress 1640/2400 | spent $1.12 | ETA 0:33:57
+2026-07-04 03:21:26,415 INFO progress 1660/2400 | spent $1.13 | ETA 0:33:13
+2026-07-04 03:22:41,046 INFO progress 1680/2400 | spent $1.15 | ETA 0:32:28
+2026-07-04 03:23:43,374 INFO progress 1700/2400 | spent $1.16 | ETA 0:31:37
+2026-07-04 03:24:18,049 INFO progress 1720/2400 | spent $1.17 | ETA 0:30:35
+2026-07-04 03:24:52,142 INFO progress 1740/2400 | spent $1.18 | ETA 0:29:33
+2026-07-04 03:25:24,314 INFO progress 1760/2400 | spent $1.19 | ETA 0:28:32
+2026-07-04 03:25:57,881 INFO progress 1780/2400 | spent $1.20 | ETA 0:27:31
+2026-07-04 03:26:36,302 INFO progress 1800/2400 | spent $1.22 | ETA 0:26:33
+2026-07-04 03:27:16,449 INFO progress 1820/2400 | spent $1.23 | ETA 0:25:36
+2026-07-04 03:28:07,414 INFO progress 1840/2400 | spent $1.24 | ETA 0:24:42
+2026-07-04 03:28:11,212 INFO verification: 1425 rows to verify (416 already done)
+2026-07-04 03:29:00,656 INFO progress 1860/2400 | spent $1.26 | ETA 0:23:49
+2026-07-04 03:29:47,026 INFO progress 1880/2400 | spent $1.27 | ETA 0:22:55
+2026-07-04 03:30:33,908 INFO progress 1900/2400 | spent $1.29 | ETA 0:22:00
+2026-07-04 03:31:28,345 INFO progress 1920/2400 | spent $1.30 | ETA 0:21:08
+2026-07-04 03:32:25,232 INFO progress 1940/2400 | spent $1.32 | ETA 0:20:16
+2026-07-04 03:33:27,885 INFO progress 1960/2400 | spent $1.33 | ETA 0:19:25
+2026-07-04 03:34:36,205 INFO progress 1980/2400 | spent $1.35 | ETA 0:18:35
+2026-07-04 03:35:46,846 INFO progress 2000/2400 | spent $1.37 | ETA 0:17:46
+2026-07-04 03:36:53,568 INFO progress 2020/2400 | spent $1.38 | ETA 0:16:55
+2026-07-04 03:37:56,456 INFO progress 2040/2400 | spent $1.40 | ETA 0:16:03
+2026-07-04 03:38:38,985 INFO progress 2060/2400 | spent $1.41 | ETA 0:15:08
+2026-07-04 03:38:59,970 INFO progress 2080/2400 | spent $1.41 | ETA 0:14:09
+2026-07-04 03:39:21,267 INFO progress 2100/2400 | spent $1.42 | ETA 0:13:12
+2026-07-04 03:39:44,443 INFO progress 2120/2400 | spent $1.42 | ETA 0:12:15
+2026-07-04 03:40:09,030 INFO progress 2140/2400 | spent $1.43 | ETA 0:11:19
+2026-07-04 03:40:34,921 INFO progress 2160/2400 | spent $1.43 | ETA 0:10:24
+2026-07-04 03:41:09,922 INFO progress 2180/2400 | spent $1.44 | ETA 0:09:30
+2026-07-04 03:41:53,302 INFO progress 2200/2400 | spent $1.45 | ETA 0:08:37
+2026-07-04 03:42:27,793 INFO progress 2220/2400 | spent $1.46 | ETA 0:07:44
+2026-07-04 03:43:02,322 INFO progress 2240/2400 | spent $1.47 | ETA 0:06:51
+2026-07-04 03:43:37,889 INFO progress 2260/2400 | spent $1.48 | ETA 0:05:59
+2026-07-04 03:44:14,143 INFO progress 2280/2400 | spent $1.49 | ETA 0:05:07
+2026-07-04 03:45:11,629 INFO progress 2300/2400 | spent $1.50 | ETA 0:04:16
+2026-07-04 03:46:02,928 INFO progress 2320/2400 | spent $1.51 | ETA 0:03:25
+2026-07-04 03:46:53,032 INFO progress 2340/2400 | spent $1.52 | ETA 0:02:33
+2026-07-04 03:47:43,550 INFO progress 2360/2400 | spent $1.53 | ETA 0:01:42
+2026-07-04 03:48:34,868 INFO progress 2380/2400 | spent $1.54 | ETA 0:00:51
+2026-07-04 03:49:30,475 INFO progress 2400/2400 | spent $1.56 | ETA 0:00:00
+2026-07-04 03:49:30,710 INFO completeness: expected 2400, present 2400, missing 0
+2026-07-04 03:49:31,708 INFO verification: 1984 rows to verify (416 already done)
+2026-07-04 06:12:23,043 INFO verification: 1984 rows to verify (416 already done)
+2026-07-04 07:25:49,935 INFO verification: 1984 rows to verify (416 already done)
+2026-07-04 09:06:25,794 INFO verification: 1984 rows to verify (416 already done)
+2026-07-04 09:16:53,306 INFO verification: 1984 rows to verify (416 already done)
+2026-07-04 09:18:25,345 INFO verified 20/1984 | pass rates L1:100% L2:65% L3:13% L4:100% | 92.0s elapsed
+2026-07-04 09:21:09,665 INFO verified 40/1984 | pass rates L1:100% L2:66% L3:13% L4:100% | 256.4s elapsed
+2026-07-04 09:23:59,220 INFO verified 60/1984 | pass rates L1:100% L2:66% L3:12% L4:100% | 425.9s elapsed
+2026-07-04 09:26:53,868 INFO verified 80/1984 | pass rates L1:100% L2:66% L3:12% L4:100% | 600.6s elapsed
+2026-07-04 09:29:44,197 INFO verified 100/1984 | pass rates L1:100% L2:66% L3:12% L4:100% | 770.9s elapsed
+2026-07-04 09:29:55,373 INFO verified 120/1984 | pass rates L1:100% L2:65% L3:11% L4:100% | 782.1s elapsed
+2026-07-04 09:30:25,384 INFO verified 140/1984 | pass rates L1:100% L2:65% L3:11% L4:100% | 812.1s elapsed
+2026-07-04 09:30:49,632 INFO verified 160/1984 | pass rates L1:100% L2:65% L3:11% L4:98% | 836.3s elapsed
+2026-07-04 09:31:10,925 INFO verified 180/1984 | pass rates L1:100% L2:65% L3:11% L4:98% | 857.6s elapsed
+2026-07-04 09:31:39,663 INFO verified 200/1984 | pass rates L1:100% L2:65% L3:10% L4:98% | 886.4s elapsed
+2026-07-04 09:31:50,383 INFO verified 220/1984 | pass rates L1:100% L2:65% L3:10% L4:98% | 897.1s elapsed
+2026-07-04 09:32:26,915 INFO verified 240/1984 | pass rates L1:100% L2:65% L3:10% L4:93% | 933.6s elapsed
+2026-07-04 09:33:19,288 INFO verified 260/1984 | pass rates L1:100% L2:65% L3:10% L4:89% | 986.0s elapsed
+2026-07-04 09:34:48,286 INFO verified 280/1984 | pass rates L1:100% L2:64% L3:10% L4:89% | 1075.0s elapsed
+2026-07-04 09:46:01,876 INFO verified 300/1984 | pass rates L1:100% L2:65% L3:10% L4:85% | 1748.6s elapsed
+2026-07-04 09:49:06,015 INFO verified 320/1984 | pass rates L1:100% L2:64% L3:10% L4:83% | 1932.7s elapsed
+2026-07-04 09:49:57,837 INFO verified 340/1984 | pass rates L1:100% L2:64% L3:10% L4:82% | 1984.5s elapsed
+2026-07-04 10:08:36,329 INFO verified 360/1984 | pass rates L1:100% L2:64% L3:10% L4:82% | 3103.0s elapsed
+2026-07-04 10:13:56,352 INFO verified 380/1984 | pass rates L1:100% L2:64% L3:10% L4:80% | 3423.0s elapsed
+2026-07-04 10:23:42,642 INFO verified 400/1984 | pass rates L1:100% L2:64% L3:10% L4:78% | 4009.3s elapsed
+2026-07-04 10:25:29,376 INFO verified 420/1984 | pass rates L1:100% L2:64% L3:10% L4:77% | 4116.1s elapsed
+2026-07-04 10:26:07,930 INFO verified 440/1984 | pass rates L1:100% L2:64% L3:9% L4:77% | 4154.6s elapsed
+2026-07-04 10:26:36,936 INFO verified 460/1984 | pass rates L1:100% L2:64% L3:9% L4:77% | 4183.6s elapsed
+2026-07-04 10:26:51,116 INFO verified 480/1984 | pass rates L1:100% L2:64% L3:9% L4:77% | 4197.8s elapsed
+2026-07-04 10:27:43,559 INFO verified 500/1984 | pass rates L1:100% L2:64% L3:9% L4:77% | 4250.3s elapsed
+2026-07-04 10:28:58,347 INFO verified 520/1984 | pass rates L1:100% L2:65% L3:9% L4:77% | 4325.0s elapsed
+2026-07-04 10:30:26,261 INFO verified 540/1984 | pass rates L1:100% L2:65% L3:8% L4:77% | 4413.0s elapsed
+2026-07-04 10:30:32,094 INFO verified 560/1984 | pass rates L1:100% L2:65% L3:8% L4:77% | 4418.8s elapsed
+2026-07-04 10:31:32,800 INFO verified 580/1984 | pass rates L1:100% L2:65% L3:8% L4:77% | 4479.5s elapsed
+2026-07-04 10:31:39,638 INFO verified 600/1984 | pass rates L1:100% L2:65% L3:8% L4:77% | 4486.3s elapsed
+2026-07-04 10:31:44,312 INFO verified 620/1984 | pass rates L1:100% L2:65% L3:8% L4:77% | 4491.0s elapsed
+2026-07-04 10:31:48,750 INFO verified 640/1984 | pass rates L1:100% L2:64% L3:8% L4:77% | 4495.4s elapsed
+2026-07-04 10:31:53,218 INFO verified 660/1984 | pass rates L1:100% L2:64% L3:8% L4:77% | 4499.9s elapsed
+2026-07-04 10:31:58,443 INFO verified 680/1984 | pass rates L1:100% L2:64% L3:7% L4:77% | 4505.1s elapsed
+2026-07-04 10:32:02,882 INFO verified 700/1984 | pass rates L1:100% L2:63% L3:7% L4:77% | 4509.6s elapsed
+2026-07-04 10:32:08,925 INFO verified 720/1984 | pass rates L1:100% L2:63% L3:7% L4:77% | 4515.6s elapsed
+2026-07-04 10:32:16,007 INFO verified 740/1984 | pass rates L1:100% L2:64% L3:7% L4:77% | 4522.7s elapsed
+2026-07-04 10:32:22,096 INFO verified 760/1984 | pass rates L1:100% L2:64% L3:7% L4:77% | 4528.8s elapsed
+2026-07-04 10:32:27,821 INFO verified 780/1984 | pass rates L1:100% L2:64% L3:7% L4:77% | 4534.5s elapsed
+2026-07-04 10:32:33,004 INFO verified 800/1984 | pass rates L1:100% L2:64% L3:7% L4:77% | 4539.7s elapsed
+2026-07-04 10:32:39,750 INFO verified 820/1984 | pass rates L1:100% L2:63% L3:7% L4:77% | 4546.4s elapsed
+2026-07-04 10:32:49,730 INFO verified 840/1984 | pass rates L1:100% L2:63% L3:7% L4:77% | 4556.4s elapsed
+2026-07-04 10:33:23,562 INFO verified 860/1984 | pass rates L1:100% L2:63% L3:7% L4:77% | 4590.3s elapsed
+2026-07-04 10:33:47,617 INFO verified 880/1984 | pass rates L1:100% L2:63% L3:7% L4:77% | 4614.3s elapsed
+2026-07-04 10:34:19,440 INFO verified 900/1984 | pass rates L1:100% L2:62% L3:7% L4:78% | 4646.1s elapsed
+2026-07-04 10:34:44,629 INFO verified 920/1984 | pass rates L1:100% L2:62% L3:7% L4:78% | 4671.3s elapsed
+2026-07-04 10:34:56,602 INFO verified 940/1984 | pass rates L1:100% L2:62% L3:7% L4:79% | 4683.3s elapsed
+2026-07-04 10:35:00,924 INFO verified 960/1984 | pass rates L1:100% L2:62% L3:7% L4:80% | 4687.6s elapsed
+2026-07-04 10:35:05,579 INFO verified 980/1984 | pass rates L1:100% L2:62% L3:8% L4:82% | 4692.3s elapsed
+2026-07-04 10:35:10,169 INFO verified 1000/1984 | pass rates L1:100% L2:62% L3:8% L4:82% | 4696.9s elapsed
+2026-07-04 10:35:14,511 INFO verified 1020/1984 | pass rates L1:100% L2:62% L3:8% L4:83% | 4701.2s elapsed
+2026-07-04 10:35:19,372 INFO verified 1040/1984 | pass rates L1:100% L2:62% L3:8% L4:84% | 4706.1s elapsed
+2026-07-04 10:35:23,507 INFO verified 1060/1984 | pass rates L1:100% L2:62% L3:8% L4:84% | 4710.2s elapsed
+2026-07-04 10:35:28,091 INFO verified 1080/1984 | pass rates L1:100% L2:62% L3:8% L4:85% | 4714.8s elapsed
+2026-07-04 10:35:32,466 INFO verified 1100/1984 | pass rates L1:100% L2:63% L3:9% L4:85% | 4719.2s elapsed
+2026-07-04 10:35:36,805 INFO verified 1120/1984 | pass rates L1:100% L2:63% L3:9% L4:85% | 4723.5s elapsed
+2026-07-04 10:35:41,394 INFO verified 1140/1984 | pass rates L1:100% L2:63% L3:9% L4:86% | 4728.1s elapsed
+2026-07-04 10:35:45,654 INFO verified 1160/1984 | pass rates L1:100% L2:63% L3:9% L4:86% | 4732.3s elapsed
+2026-07-04 10:35:50,324 INFO verified 1180/1984 | pass rates L1:100% L2:63% L3:9% L4:86% | 4737.0s elapsed
+2026-07-04 10:35:54,555 INFO verified 1200/1984 | pass rates L1:100% L2:63% L3:9% L4:86% | 4741.2s elapsed
+2026-07-04 10:35:59,714 INFO verified 1220/1984 | pass rates L1:100% L2:64% L3:9% L4:87% | 4746.4s elapsed
+2026-07-04 10:36:04,599 INFO verified 1240/1984 | pass rates L1:100% L2:64% L3:9% L4:87% | 4751.3s elapsed
+2026-07-04 10:36:09,811 INFO verified 1260/1984 | pass rates L1:100% L2:64% L3:8% L4:87% | 4756.5s elapsed
+2026-07-04 10:36:14,262 INFO verified 1280/1984 | pass rates L1:100% L2:64% L3:8% L4:87% | 4761.0s elapsed
+2026-07-04 10:36:18,959 INFO verified 1300/1984 | pass rates L1:100% L2:64% L3:9% L4:87% | 4765.7s elapsed
+2026-07-04 10:36:23,479 INFO verified 1320/1984 | pass rates L1:100% L2:64% L3:9% L4:88% | 4770.2s elapsed
+2026-07-04 10:36:28,041 INFO verified 1340/1984 | pass rates L1:100% L2:65% L3:10% L4:89% | 4774.7s elapsed
+2026-07-04 10:36:32,515 INFO verified 1360/1984 | pass rates L1:100% L2:65% L3:10% L4:90% | 4779.2s elapsed
+2026-07-04 10:36:36,854 INFO verified 1380/1984 | pass rates L1:100% L2:65% L3:11% L4:90% | 4783.5s elapsed
+2026-07-04 10:36:41,505 INFO verified 1400/1984 | pass rates L1:100% L2:65% L3:11% L4:91% | 4788.2s elapsed
+2026-07-04 10:36:54,094 INFO verified 1420/1984 | pass rates L1:100% L2:65% L3:11% L4:91% | 4800.8s elapsed
+2026-07-04 10:37:13,162 INFO verified 1440/1984 | pass rates L1:100% L2:65% L3:11% L4:91% | 4819.9s elapsed
+2026-07-04 10:37:22,730 INFO verified 1460/1984 | pass rates L1:100% L2:65% L3:12% L4:92% | 4829.4s elapsed
+2026-07-04 10:37:32,443 INFO verified 1480/1984 | pass rates L1:100% L2:65% L3:12% L4:92% | 4839.1s elapsed
+2026-07-04 10:37:47,676 INFO verified 1500/1984 | pass rates L1:100% L2:65% L3:12% L4:92% | 4854.4s elapsed
+2026-07-04 10:38:01,753 INFO verified 1520/1984 | pass rates L1:100% L2:65% L3:12% L4:92% | 4868.4s elapsed
+2026-07-04 10:38:09,500 INFO verified 1540/1984 | pass rates L1:100% L2:65% L3:12% L4:92% | 4876.2s elapsed
+2026-07-04 10:38:17,216 INFO verified 1560/1984 | pass rates L1:100% L2:65% L3:12% L4:92% | 4883.9s elapsed
+2026-07-04 10:38:24,974 INFO verified 1580/1984 | pass rates L1:100% L2:65% L3:12% L4:92% | 4891.7s elapsed
+2026-07-04 10:38:32,705 INFO verified 1600/1984 | pass rates L1:100% L2:65% L3:12% L4:92% | 4899.4s elapsed
+2026-07-04 10:38:41,477 INFO verified 1620/1984 | pass rates L1:100% L2:65% L3:12% L4:92% | 4908.2s elapsed
+2026-07-04 10:38:49,603 INFO verified 1640/1984 | pass rates L1:100% L2:65% L3:12% L4:92% | 4916.3s elapsed
+2026-07-04 10:38:54,906 INFO verified 1660/1984 | pass rates L1:100% L2:65% L3:12% L4:92% | 4921.6s elapsed
+2026-07-04 10:38:59,646 INFO verified 1680/1984 | pass rates L1:100% L2:65% L3:13% L4:92% | 4926.3s elapsed
+2026-07-04 10:39:04,506 INFO verified 1700/1984 | pass rates L1:100% L2:66% L3:13% L4:92% | 4931.2s elapsed
+2026-07-04 10:39:12,046 INFO verified 1720/1984 | pass rates L1:100% L2:66% L3:14% L4:92% | 4938.7s elapsed
+2026-07-04 10:39:16,662 INFO verified 1740/1984 | pass rates L1:100% L2:66% L3:14% L4:91% | 4943.4s elapsed
+2026-07-04 10:39:21,800 INFO verified 1760/1984 | pass rates L1:100% L2:66% L3:14% L4:89% | 4948.5s elapsed
+2026-07-04 10:39:27,256 INFO verified 1780/1984 | pass rates L1:100% L2:66% L3:14% L4:90% | 4953.9s elapsed
+2026-07-04 10:39:32,223 INFO verified 1800/1984 | pass rates L1:100% L2:66% L3:14% L4:90% | 4958.9s elapsed
+2026-07-04 10:39:37,219 INFO verified 1820/1984 | pass rates L1:100% L2:66% L3:15% L4:90% | 4963.9s elapsed
+2026-07-04 10:39:42,440 INFO verified 1840/1984 | pass rates L1:100% L2:66% L3:15% L4:90% | 4969.1s elapsed
+2026-07-04 10:39:48,713 INFO verified 1860/1984 | pass rates L1:100% L2:66% L3:15% L4:91% | 4975.4s elapsed
+2026-07-04 10:39:55,499 INFO verified 1880/1984 | pass rates L1:100% L2:66% L3:15% L4:91% | 4982.2s elapsed
+2026-07-04 10:40:07,387 INFO verified 1900/1984 | pass rates L1:100% L2:66% L3:15% L4:91% | 4994.1s elapsed
+2026-07-04 10:40:18,103 INFO verified 1920/1984 | pass rates L1:100% L2:66% L3:15% L4:91% | 5004.8s elapsed
+2026-07-04 10:40:29,687 INFO verified 1940/1984 | pass rates L1:100% L2:66% L3:15% L4:91% | 5016.4s elapsed
+2026-07-04 10:40:39,472 INFO verified 1960/1984 | pass rates L1:100% L2:66% L3:15% L4:91% | 5026.2s elapsed
+2026-07-04 10:41:06,912 INFO verified 1980/1984 | pass rates L1:100% L2:66% L3:15% L4:91% | 5053.6s elapsed
+2026-07-04 10:41:07,808 INFO verification complete: 1984 rows
+2026-07-04 16:30:58,152 INFO verification: 2400 rows to verify (0 already done)
+2026-07-04 16:31:02,928 INFO verified 20/2400 | pass rates L1:100% L2:75% L3:7% L4:100% | 4.8s elapsed
+2026-07-04 16:31:07,948 INFO verified 40/2400 | pass rates L1:100% L2:75% L3:10% L4:100% | 9.8s elapsed
+2026-07-04 16:31:12,660 INFO verified 60/2400 | pass rates L1:100% L2:72% L3:12% L4:100% | 14.5s elapsed
+2026-07-04 16:31:17,270 INFO verified 80/2400 | pass rates L1:100% L2:66% L3:13% L4:100% | 19.1s elapsed
+2026-07-04 16:31:21,806 INFO verified 100/2400 | pass rates L1:100% L2:63% L3:13% L4:100% | 23.7s elapsed
+2026-07-04 16:31:26,240 INFO verified 120/2400 | pass rates L1:100% L2:62% L3:11% L4:100% | 28.1s elapsed
+2026-07-04 16:31:30,662 INFO verified 140/2400 | pass rates L1:100% L2:61% L3:14% L4:100% | 32.5s elapsed
+2026-07-04 16:31:35,150 INFO verified 160/2400 | pass rates L1:100% L2:63% L3:14% L4:100% | 37.0s elapsed
+2026-07-04 16:31:41,303 INFO verified 180/2400 | pass rates L1:100% L2:63% L3:13% L4:100% | 43.2s elapsed
+2026-07-04 16:31:47,274 INFO verified 200/2400 | pass rates L1:100% L2:64% L3:16% L4:100% | 49.1s elapsed
+2026-07-04 16:31:53,270 INFO verified 220/2400 | pass rates L1:100% L2:65% L3:14% L4:100% | 55.1s elapsed
+2026-07-04 16:32:02,694 INFO verified 240/2400 | pass rates L1:100% L2:66% L3:14% L4:100% | 64.5s elapsed
+2026-07-04 16:32:10,667 INFO verified 260/2400 | pass rates L1:100% L2:66% L3:13% L4:100% | 72.5s elapsed
+2026-07-04 16:32:15,793 INFO verified 280/2400 | pass rates L1:100% L2:67% L3:13% L4:100% | 77.6s elapsed
+2026-07-04 16:32:20,779 INFO verified 300/2400 | pass rates L1:100% L2:67% L3:14% L4:100% | 82.6s elapsed
+2026-07-04 16:32:27,823 INFO verified 320/2400 | pass rates L1:100% L2:66% L3:13% L4:100% | 89.7s elapsed
+2026-07-04 16:32:41,421 INFO verified 340/2400 | pass rates L1:100% L2:66% L3:13% L4:100% | 103.3s elapsed
+2026-07-04 16:33:02,976 INFO verified 360/2400 | pass rates L1:100% L2:64% L3:13% L4:100% | 124.8s elapsed
+2026-07-04 16:33:55,989 INFO verified 380/2400 | pass rates L1:100% L2:63% L3:13% L4:100% | 177.8s elapsed
+2026-07-04 16:34:23,090 INFO verification: 2019 rows to verify (381 already done)
+2026-07-04 16:40:04,781 INFO verified 20/2019 | pass rates L1:100% L2:64% L3:13% L4:100% | 341.7s elapsed
+2026-07-04 16:42:57,397 INFO verified 40/2019 | pass rates L1:100% L2:65% L3:13% L4:100% | 514.3s elapsed
+2026-07-04 16:44:55,494 INFO verified 60/2019 | pass rates L1:100% L2:65% L3:13% L4:100% | 632.4s elapsed
+2026-07-04 16:48:31,408 INFO verified 80/2019 | pass rates L1:100% L2:66% L3:13% L4:100% | 848.3s elapsed
+2026-07-04 16:49:49,729 INFO verified 100/2019 | pass rates L1:100% L2:65% L3:13% L4:100% | 926.6s elapsed
+2026-07-04 16:53:35,998 INFO verified 120/2019 | pass rates L1:100% L2:66% L3:12% L4:100% | 1152.9s elapsed
+2026-07-04 16:55:46,981 INFO verified 140/2019 | pass rates L1:100% L2:65% L3:12% L4:100% | 1283.9s elapsed
+2026-07-04 16:56:07,179 INFO verified 160/2019 | pass rates L1:100% L2:65% L3:11% L4:100% | 1304.1s elapsed
+2026-07-04 16:56:55,131 INFO verified 180/2019 | pass rates L1:100% L2:64% L3:11% L4:100% | 1352.0s elapsed
+2026-07-04 16:57:34,186 INFO verified 200/2019 | pass rates L1:100% L2:64% L3:11% L4:98% | 1391.1s elapsed
+2026-07-04 16:58:35,071 INFO verified 220/2019 | pass rates L1:100% L2:65% L3:11% L4:98% | 1452.0s elapsed
+2026-07-04 16:58:45,325 INFO verified 240/2019 | pass rates L1:100% L2:64% L3:10% L4:98% | 1462.2s elapsed
+2026-07-04 16:58:56,534 INFO verified 260/2019 | pass rates L1:100% L2:65% L3:10% L4:93% | 1473.4s elapsed
+2026-07-04 17:00:09,528 INFO verified 280/2019 | pass rates L1:100% L2:65% L3:10% L4:93% | 1546.4s elapsed
+2026-07-04 17:00:56,205 INFO verified 300/2019 | pass rates L1:100% L2:64% L3:10% L4:89% | 1593.1s elapsed
+2026-07-04 17:07:49,019 INFO verified 320/2019 | pass rates L1:100% L2:64% L3:10% L4:89% | 2005.9s elapsed
+2026-07-04 17:09:25,177 INFO verified 340/2019 | pass rates L1:100% L2:64% L3:10% L4:85% | 2102.1s elapsed
+2026-07-04 17:12:44,642 INFO verified 360/2019 | pass rates L1:100% L2:64% L3:10% L4:83% | 2301.6s elapsed
+2026-07-04 17:13:34,284 INFO verified 380/2019 | pass rates L1:100% L2:63% L3:10% L4:82% | 2351.2s elapsed
+2026-07-04 17:32:18,224 INFO verified 400/2019 | pass rates L1:100% L2:64% L3:10% L4:82% | 3475.1s elapsed
+2026-07-04 17:44:04,595 INFO verified 420/2019 | pass rates L1:100% L2:64% L3:10% L4:80% | 4181.5s elapsed
+2026-07-04 17:57:14,677 INFO verified 440/2019 | pass rates L1:100% L2:64% L3:10% L4:78% | 4971.6s elapsed
+2026-07-04 18:00:20,588 INFO verified 460/2019 | pass rates L1:100% L2:64% L3:10% L4:77% | 5157.5s elapsed
+2026-07-04 18:01:06,377 INFO verified 480/2019 | pass rates L1:100% L2:64% L3:9% L4:77% | 5203.3s elapsed
+2026-07-04 18:01:35,765 INFO verified 500/2019 | pass rates L1:100% L2:64% L3:9% L4:77% | 5232.7s elapsed
+2026-07-04 18:02:31,265 INFO verified 520/2019 | pass rates L1:100% L2:64% L3:9% L4:77% | 5288.2s elapsed
+2026-07-04 18:03:40,157 INFO verified 540/2019 | pass rates L1:100% L2:64% L3:9% L4:77% | 5357.1s elapsed
+2026-07-04 18:05:48,874 INFO verified 560/2019 | pass rates L1:100% L2:65% L3:9% L4:77% | 5485.8s elapsed
+2026-07-04 18:08:18,173 INFO verified 580/2019 | pass rates L1:100% L2:65% L3:8% L4:77% | 5635.1s elapsed
+2026-07-04 18:08:24,858 INFO verified 600/2019 | pass rates L1:100% L2:65% L3:8% L4:77% | 5641.8s elapsed
+2026-07-04 18:09:37,024 INFO verified 620/2019 | pass rates L1:100% L2:65% L3:8% L4:77% | 5713.9s elapsed
+2026-07-04 18:09:41,906 INFO verified 640/2019 | pass rates L1:100% L2:65% L3:8% L4:77% | 5718.8s elapsed
+2026-07-04 18:09:46,880 INFO verified 660/2019 | pass rates L1:100% L2:64% L3:8% L4:77% | 5723.8s elapsed
+2026-07-04 18:09:51,624 INFO verified 680/2019 | pass rates L1:100% L2:64% L3:8% L4:77% | 5728.5s elapsed
+2026-07-04 18:09:56,608 INFO verified 700/2019 | pass rates L1:100% L2:63% L3:8% L4:77% | 5733.5s elapsed
+2026-07-04 18:10:01,628 INFO verified 720/2019 | pass rates L1:100% L2:63% L3:7% L4:77% | 5738.5s elapsed
+2026-07-04 18:10:06,862 INFO verified 740/2019 | pass rates L1:100% L2:63% L3:7% L4:77% | 5743.8s elapsed
+2026-07-04 18:10:13,174 INFO verified 760/2019 | pass rates L1:100% L2:63% L3:7% L4:77% | 5750.1s elapsed
+2026-07-04 18:10:20,670 INFO verified 780/2019 | pass rates L1:100% L2:64% L3:7% L4:77% | 5757.6s elapsed
+2026-07-04 18:10:26,998 INFO verified 800/2019 | pass rates L1:100% L2:63% L3:7% L4:77% | 5763.9s elapsed
+2026-07-04 18:10:32,811 INFO verified 820/2019 | pass rates L1:100% L2:63% L3:7% L4:77% | 5769.7s elapsed
+2026-07-04 18:10:38,460 INFO verified 840/2019 | pass rates L1:100% L2:63% L3:7% L4:77% | 5775.4s elapsed
+2026-07-04 18:10:46,242 INFO verified 860/2019 | pass rates L1:100% L2:63% L3:7% L4:77% | 5783.2s elapsed
+2026-07-04 18:11:07,040 INFO verified 880/2019 | pass rates L1:100% L2:63% L3:7% L4:77% | 5803.9s elapsed
+2026-07-04 18:11:30,170 INFO verified 900/2019 | pass rates L1:100% L2:62% L3:7% L4:77% | 5827.1s elapsed
+2026-07-04 18:12:10,950 INFO verified 920/2019 | pass rates L1:100% L2:62% L3:7% L4:77% | 5867.9s elapsed
+2026-07-04 18:12:30,315 INFO verified 940/2019 | pass rates L1:100% L2:62% L3:7% L4:78% | 5887.2s elapsed
+2026-07-04 18:12:55,869 INFO verified 960/2019 | pass rates L1:100% L2:62% L3:7% L4:78% | 5912.8s elapsed
+2026-07-04 18:13:08,212 INFO verified 980/2019 | pass rates L1:100% L2:62% L3:7% L4:80% | 5925.1s elapsed
+2026-07-04 18:13:12,987 INFO verified 1000/2019 | pass rates L1:100% L2:62% L3:7% L4:80% | 5929.9s elapsed
+2026-07-04 18:13:17,771 INFO verified 1020/2019 | pass rates L1:100% L2:62% L3:8% L4:82% | 5934.7s elapsed
+2026-07-04 18:13:22,362 INFO verified 1040/2019 | pass rates L1:100% L2:62% L3:8% L4:83% | 5939.3s elapsed
+2026-07-04 18:13:26,940 INFO verified 1060/2019 | pass rates L1:100% L2:62% L3:8% L4:83% | 5943.8s elapsed
+2026-07-04 18:13:31,571 INFO verified 1080/2019 | pass rates L1:100% L2:62% L3:8% L4:84% | 5948.5s elapsed
+2026-07-04 18:13:35,907 INFO verified 1100/2019 | pass rates L1:100% L2:62% L3:8% L4:84% | 5952.8s elapsed
+2026-07-04 18:13:40,445 INFO verified 1120/2019 | pass rates L1:100% L2:62% L3:9% L4:85% | 5957.4s elapsed
+2026-07-04 18:13:45,089 INFO verified 1140/2019 | pass rates L1:100% L2:62% L3:9% L4:85% | 5962.0s elapsed
+2026-07-04 18:13:49,652 INFO verified 1160/2019 | pass rates L1:100% L2:63% L3:9% L4:86% | 5966.6s elapsed
+2026-07-04 18:13:54,461 INFO verified 1180/2019 | pass rates L1:100% L2:63% L3:9% L4:86% | 5971.4s elapsed
+2026-07-04 18:13:58,892 INFO verified 1200/2019 | pass rates L1:100% L2:63% L3:9% L4:86% | 5975.8s elapsed
+2026-07-04 18:14:03,482 INFO verified 1220/2019 | pass rates L1:100% L2:63% L3:9% L4:86% | 5980.4s elapsed
+2026-07-04 18:14:07,972 INFO verified 1240/2019 | pass rates L1:100% L2:63% L3:9% L4:86% | 5984.9s elapsed
+2026-07-04 18:14:13,466 INFO verified 1260/2019 | pass rates L1:100% L2:63% L3:9% L4:87% | 5990.4s elapsed
+2026-07-04 18:14:18,453 INFO verified 1280/2019 | pass rates L1:100% L2:64% L3:9% L4:87% | 5995.4s elapsed
+2026-07-04 18:14:23,094 INFO verified 1300/2019 | pass rates L1:100% L2:64% L3:8% L4:87% | 6000.0s elapsed
+2026-07-04 18:14:27,651 INFO verified 1320/2019 | pass rates L1:100% L2:64% L3:8% L4:87% | 6004.6s elapsed
+2026-07-04 18:14:32,266 INFO verified 1340/2019 | pass rates L1:100% L2:64% L3:9% L4:87% | 6009.2s elapsed
+2026-07-04 18:14:36,842 INFO verified 1360/2019 | pass rates L1:100% L2:64% L3:9% L4:89% | 6013.8s elapsed
+2026-07-04 18:14:41,414 INFO verified 1380/2019 | pass rates L1:100% L2:65% L3:10% L4:89% | 6018.3s elapsed
+2026-07-04 18:14:46,089 INFO verified 1400/2019 | pass rates L1:100% L2:65% L3:10% L4:90% | 6023.0s elapsed
+2026-07-04 18:14:50,622 INFO verified 1420/2019 | pass rates L1:100% L2:65% L3:11% L4:90% | 6027.5s elapsed
+2026-07-04 18:14:56,228 INFO verified 1440/2019 | pass rates L1:100% L2:65% L3:11% L4:91% | 6033.1s elapsed
+2026-07-04 18:15:12,497 INFO verified 1460/2019 | pass rates L1:100% L2:65% L3:11% L4:91% | 6049.4s elapsed
+2026-07-04 18:15:26,468 INFO verified 1480/2019 | pass rates L1:100% L2:65% L3:12% L4:91% | 6063.4s elapsed
+2026-07-04 18:15:37,230 INFO verified 1500/2019 | pass rates L1:100% L2:65% L3:12% L4:92% | 6074.1s elapsed
+2026-07-04 18:15:49,249 INFO verified 1520/2019 | pass rates L1:100% L2:65% L3:12% L4:92% | 6086.2s elapsed
+2026-07-04 18:16:02,621 INFO verified 1540/2019 | pass rates L1:100% L2:65% L3:12% L4:92% | 6099.5s elapsed
+2026-07-04 18:16:18,265 INFO verified 1560/2019 | pass rates L1:100% L2:65% L3:12% L4:92% | 6115.2s elapsed
+2026-07-04 18:16:25,158 INFO verified 1580/2019 | pass rates L1:100% L2:65% L3:12% L4:92% | 6122.1s elapsed
+2026-07-04 18:16:33,586 INFO verified 1600/2019 | pass rates L1:100% L2:65% L3:12% L4:92% | 6130.5s elapsed
+2026-07-04 18:16:42,707 INFO verified 1620/2019 | pass rates L1:100% L2:65% L3:12% L4:92% | 6139.6s elapsed
+2026-07-04 18:16:50,800 INFO verified 1640/2019 | pass rates L1:100% L2:65% L3:12% L4:92% | 6147.7s elapsed
+2026-07-04 18:17:00,524 INFO verified 1660/2019 | pass rates L1:100% L2:65% L3:12% L4:92% | 6157.4s elapsed
+2026-07-04 18:17:07,750 INFO verified 1680/2019 | pass rates L1:100% L2:65% L3:12% L4:92% | 6164.7s elapsed
+2026-07-04 18:17:13,011 INFO verified 1700/2019 | pass rates L1:100% L2:65% L3:13% L4:92% | 6169.9s elapsed
+2026-07-04 18:17:18,283 INFO verified 1720/2019 | pass rates L1:100% L2:65% L3:13% L4:92% | 6175.2s elapsed
+2026-07-04 18:17:23,912 INFO verified 1740/2019 | pass rates L1:100% L2:65% L3:13% L4:92% | 6180.8s elapsed
+2026-07-04 18:17:31,014 INFO verified 1760/2019 | pass rates L1:100% L2:65% L3:14% L4:92% | 6187.9s elapsed
+2026-07-04 18:17:35,676 INFO verified 1780/2019 | pass rates L1:100% L2:66% L3:14% L4:91% | 6192.6s elapsed
+2026-07-04 18:17:40,531 INFO verified 1800/2019 | pass rates L1:100% L2:66% L3:14% L4:89% | 6197.4s elapsed
+2026-07-04 18:17:46,386 INFO verified 1820/2019 | pass rates L1:100% L2:66% L3:14% L4:90% | 6203.3s elapsed
+2026-07-04 18:17:51,384 INFO verified 1840/2019 | pass rates L1:100% L2:66% L3:14% L4:90% | 6208.3s elapsed
+2026-07-04 18:17:56,567 INFO verified 1860/2019 | pass rates L1:100% L2:66% L3:14% L4:90% | 6213.5s elapsed
+2026-07-04 18:18:01,531 INFO verified 1880/2019 | pass rates L1:100% L2:66% L3:15% L4:90% | 6218.4s elapsed
+2026-07-04 18:18:09,343 INFO verified 1900/2019 | pass rates L1:100% L2:66% L3:15% L4:91% | 6226.3s elapsed
+2026-07-04 18:18:16,671 INFO verified 1920/2019 | pass rates L1:100% L2:66% L3:15% L4:91% | 6233.6s elapsed
+2026-07-04 18:18:31,084 INFO verified 1940/2019 | pass rates L1:100% L2:66% L3:15% L4:91% | 6248.0s elapsed
+2026-07-04 18:18:42,655 INFO verified 1960/2019 | pass rates L1:100% L2:66% L3:15% L4:91% | 6259.6s elapsed
+2026-07-04 18:18:53,002 INFO verified 1980/2019 | pass rates L1:100% L2:66% L3:15% L4:91% | 6269.9s elapsed
+2026-07-04 18:19:05,624 INFO verified 2000/2019 | pass rates L1:100% L2:66% L3:15% L4:91% | 6282.5s elapsed
+2026-07-04 18:19:29,425 INFO verification complete: 2019 rows

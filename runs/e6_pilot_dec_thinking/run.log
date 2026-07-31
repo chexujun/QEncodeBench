@@ -1,0 +1,13 @@
+2026-07-04 06:24:10,926 INFO run e6_pilot_dec_thinking: 54 instances x 1 models x 1 samples = 54 (already done: 0)
+2026-07-04 06:24:10,927 INFO generation with 4 workers
+2026-07-04 07:49:35,386 INFO progress 20/54 | spent $0.22 | ETA 2:25:11
+2026-07-04 08:16:33,037 INFO progress 40/54 | spent $0.39 | ETA 0:39:19
+2026-07-04 08:28:48,203 INFO completeness: expected 54, present 54, missing 0
+2026-07-04 08:29:59,552 INFO verification: 54 rows to verify (0 already done)
+2026-07-04 08:37:53,169 INFO verified 20/54 | pass rates L1:95% L2:95% L3:67% L4:92% | 473.6s elapsed
+2026-07-04 08:38:14,272 INFO verified 40/54 | pass rates L1:98% L2:97% L3:74% L4:96% | 494.7s elapsed
+2026-07-04 08:38:22,170 INFO verification complete: 54 rows
+2026-07-04 17:15:05,410 INFO verification: 54 rows to verify (0 already done)
+2026-07-04 17:16:56,037 INFO verified 20/54 | pass rates L1:95% L2:95% L3:67% L4:92% | 110.6s elapsed
+2026-07-04 17:17:03,596 INFO verified 40/54 | pass rates L1:98% L2:97% L3:74% L4:96% | 118.2s elapsed
+2026-07-04 17:17:09,616 INFO verification complete: 54 rows

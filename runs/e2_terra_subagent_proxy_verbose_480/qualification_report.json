@@ -1,0 +1,14 @@
+{
+  "all_intended_solver_messages_exact": true,
+  "all_import_conventions_recorded": true,
+  "all_prompt_hashes_match_files": true,
+  "all_variant_verbose": true,
+  "expected_instances": 480,
+  "manifest_rows": 480,
+  "dispatch_qualification_reason": "Not established by preparation alone: actual solver-message bytes must be independently recorded and compared with prompt_sha256.",
+  "dispatch_qualified": false,
+  "input_qualified": true,
+  "unique_instance_indices": 480,
+  "unique_prompt_paths": 480,
+  "unique_task_ids": 480
+}

@@ -1,0 +1,9 @@
+{"key": ["string_match-T2-s0010", "Qwen3-32B (no-think)", "direct", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.39}
+{"key": ["string_match-T1-s0001", "Qwen3-32B (no-think)", "direct", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.33}
+{"key": ["string_match-T1-s0007", "Qwen3-32B (no-think)", "direct", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.26}
+{"key": ["string_match-T1-s0005", "Qwen3-32B (no-think)", "direct", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.36}
+{"key": ["string_match-T1-s0021", "Qwen3-32B (no-think)", "direct", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.25}
+{"key": ["3sat-T2-s0004", "Qwen3-32B (no-think)", "direct", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.36}
+{"key": ["vertex_cover-T1-s0031", "Qwen3-32B (no-think)", "direct", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.25}
+{"key": ["string_match-T1-s0010", "Qwen3-32B (no-think)", "direct", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.33}
+{"key": ["string_match-T1-s0020", "Qwen3-32B (no-think)", "direct", 0, "verbose"], "new_L3": true, "verifier_method": "A+exhaustive", "exhaustive_affordable": true, "detail": null, "time_s": 0.75}

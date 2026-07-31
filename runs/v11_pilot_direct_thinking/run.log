@@ -1,0 +1,28 @@
+2026-07-04 23:55:07,074 INFO run v11_pilot_direct_thinking: 54 instances x 1 models x 3 samples = 162 (already done: 0)
+2026-07-04 23:55:07,074 INFO generation with 16 workers
+2026-07-05 00:02:22,053 INFO progress 20/162 | spent $0.11 | ETA 0:51:28
+2026-07-05 00:07:57,827 INFO progress 40/162 | spent $0.25 | ETA 0:39:10
+2026-07-05 00:11:29,858 INFO progress 60/162 | spent $0.37 | ETA 0:27:50
+2026-07-05 00:17:30,308 INFO progress 80/162 | spent $0.52 | ETA 0:22:56
+2026-07-05 00:21:43,577 INFO progress 100/162 | spent $0.64 | ETA 0:16:29
+2026-07-05 00:29:15,779 INFO progress 120/162 | spent $0.77 | ETA 0:11:57
+2026-07-05 00:36:55,329 INFO progress 140/162 | spent $0.94 | ETA 0:06:34
+2026-07-05 00:45:14,753 INFO progress 160/162 | spent $1.11 | ETA 0:00:37
+2026-07-05 00:46:25,784 INFO completeness: expected 162, present 162, missing 0
+2026-07-05 00:46:25,838 INFO verification: 162 rows to verify (0 already done)
+2026-07-05 00:46:38,423 INFO verified 20/162 | pass rates L1:85% L2:65% L3:9% L4:100% | 12.6s elapsed
+2026-07-05 00:46:43,857 INFO verified 40/162 | pass rates L1:82% L2:76% L3:20% L4:100% | 18.0s elapsed
+2026-07-05 00:48:55,942 INFO verified 60/162 | pass rates L1:77% L2:74% L3:24% L4:100% | 150.1s elapsed
+2026-07-05 00:51:31,255 INFO verified 80/162 | pass rates L1:70% L2:70% L3:23% L4:100% | 305.4s elapsed
+2026-07-05 00:55:47,074 INFO verified 100/162 | pass rates L1:71% L2:73% L3:27% L4:100% | 561.2s elapsed
+2026-07-05 00:57:31,836 INFO verified 120/162 | pass rates L1:70% L2:75% L3:25% L4:100% | 666.0s elapsed
+2026-07-05 02:12:27,121 INFO verification: 162 rows to verify (0 already done)
+2026-07-05 02:12:33,784 INFO verified 20/162 | pass rates L1:85% L2:65% L3:9% L4:100% | 6.7s elapsed
+2026-07-05 02:12:38,857 INFO verified 40/162 | pass rates L1:82% L2:76% L3:20% L4:100% | 11.7s elapsed
+2026-07-05 02:14:16,972 INFO verified 60/162 | pass rates L1:77% L2:74% L3:24% L4:100% | 109.9s elapsed
+2026-07-05 02:15:56,181 INFO verified 80/162 | pass rates L1:70% L2:70% L3:23% L4:100% | 209.1s elapsed
+2026-07-05 02:19:31,874 INFO verified 100/162 | pass rates L1:71% L2:73% L3:27% L4:100% | 424.8s elapsed
+2026-07-05 02:20:11,755 INFO verified 120/162 | pass rates L1:70% L2:75% L3:25% L4:100% | 464.6s elapsed
+2026-07-05 02:20:59,808 INFO verified 140/162 | pass rates L1:64% L2:76% L3:25% L4:100% | 512.7s elapsed
+2026-07-05 02:22:41,966 INFO verified 160/162 | pass rates L1:63% L2:75% L3:22% L4:100% | 614.8s elapsed
+2026-07-05 02:22:42,347 INFO verification complete: 162 rows

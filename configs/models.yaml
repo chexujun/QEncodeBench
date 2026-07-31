@@ -1,0 +1,26 @@
+defaults:
+  max_tokens: 3000
+
+models:
+  mock-reference: {litellm_model: "mock:reference"}
+  mock-broken:    {litellm_model: "mock:broken"}
+  mock-garbage:   {litellm_model: "mock:garbage"}
+
+  deepseek-v4-flash:
+    litellm_model: "deepseek/deepseek-v4-flash"
+    price_checked: 2026-07-03
+    price_per_mtok: {input: 0.14, output: 0.28}
+    max_tokens: 3000
+    extra:
+      extra_body: {thinking: {type: disabled}}
+
+  deepseek-v4-flash-thinking:
+    litellm_model: "deepseek/deepseek-v4-flash"
+    price_checked: 2026-07-03
+    price_per_mtok: {input: 0.14, output: 0.28}
+    max_tokens: 32000
+
+  qwen2.5-coder-7b:
+    litellm_model: "ollama/qwen2.5-coder:7b"
+    api_base: "http://localhost:11434"
+

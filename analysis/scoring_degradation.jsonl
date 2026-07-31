@@ -1,0 +1,9 @@
+{"config": "qwen2.5-7b (greedy)", "regime": "basis16", "degraded_pass1": 0.27708333333333335, "l3_pass1": 0.0, "inflation_pp": 27.708333333333336, "fp_rate": 1.0, "accepted": 133, "accepted_wrong": 133}
+{"config": "qwen2.5-7b (greedy)", "regime": "basis64", "degraded_pass1": 0.27708333333333335, "l3_pass1": 0.0, "inflation_pp": 27.708333333333336, "fp_rate": 1.0, "accepted": 133, "accepted_wrong": 133}
+{"config": "qwen2.5-7b (greedy)", "regime": "super4", "degraded_pass1": 0.0, "l3_pass1": 0.0, "inflation_pp": 0.0, "fp_rate": 0.0, "accepted": 0, "accepted_wrong": 0}
+{"config": "deepseek-v4-flash (t=0.7)", "regime": "basis16", "degraded_pass1": 0.35250000000000004, "l3_pass1": 0.10166666666666667, "inflation_pp": 25.083333333333336, "fp_rate": 0.7115839243498818, "accepted": 846, "accepted_wrong": 602}
+{"config": "deepseek-v4-flash (t=0.7)", "regime": "basis64", "degraded_pass1": 0.3508333333333334, "l3_pass1": 0.10166666666666667, "inflation_pp": 24.91666666666667, "fp_rate": 0.7102137767220903, "accepted": 842, "accepted_wrong": 598}
+{"config": "deepseek-v4-flash (t=0.7)", "regime": "super4", "degraded_pass1": 0.10291666666666668, "l3_pass1": 0.10166666666666667, "inflation_pp": 0.1250000000000015, "fp_rate": 0.012145748987854251, "accepted": 247, "accepted_wrong": 3}
+{"config": "deepseek-v4-flash + thinking", "regime": "basis16", "degraded_pass1": 0.6625, "l3_pass1": 0.45416666666666666, "inflation_pp": 20.833333333333332, "fp_rate": 0.31446540880503143, "accepted": 318, "accepted_wrong": 100}
+{"config": "deepseek-v4-flash + thinking", "regime": "basis64", "degraded_pass1": 0.6625, "l3_pass1": 0.45416666666666666, "inflation_pp": 20.833333333333332, "fp_rate": 0.31446540880503143, "accepted": 318, "accepted_wrong": 100}
+{"config": "deepseek-v4-flash + thinking", "regime": "super4", "degraded_pass1": 0.45416666666666666, "l3_pass1": 0.45416666666666666, "inflation_pp": 0.0, "fp_rate": 0.0, "accepted": 218, "accepted_wrong": 0}

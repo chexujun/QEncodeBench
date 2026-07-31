@@ -1,0 +1,21 @@
+2026-07-04 21:30:43,066 INFO run e7_nsc_noval: 54 instances x 1 models x 3 samples = 162 (already done: 0)
+2026-07-04 21:30:43,066 INFO generation with 16 workers
+2026-07-04 21:30:49,422 INFO progress 20/162 | spent $0.00 | ETA 0:00:45
+2026-07-04 21:30:52,038 INFO progress 40/162 | spent $0.00 | ETA 0:00:27
+2026-07-04 21:30:54,709 INFO progress 60/162 | spent $0.01 | ETA 0:00:19
+2026-07-04 21:30:57,714 INFO progress 80/162 | spent $0.01 | ETA 0:00:15
+2026-07-04 21:30:59,777 INFO progress 100/162 | spent $0.01 | ETA 0:00:10
+2026-07-04 21:31:02,487 INFO progress 120/162 | spent $0.01 | ETA 0:00:06
+2026-07-04 21:31:07,856 INFO progress 140/162 | spent $0.01 | ETA 0:00:03
+2026-07-04 21:31:11,410 INFO progress 160/162 | spent $0.02 | ETA 0:00:00
+2026-07-04 21:31:11,502 INFO completeness: expected 162, present 162, missing 0
+2026-07-04 21:31:11,529 INFO verification: 162 rows to verify (0 already done)
+2026-07-04 21:31:16,180 INFO verified 20/162 | pass rates L1:100% L2:100% L3:95% L4:100% | 4.7s elapsed
+2026-07-04 21:31:25,130 INFO verified 40/162 | pass rates L1:100% L2:100% L3:98% L4:100% | 13.6s elapsed
+2026-07-04 21:35:33,721 INFO verified 60/162 | pass rates L1:100% L2:100% L3:98% L4:100% | 262.2s elapsed
+2026-07-04 21:35:45,576 INFO verified 80/162 | pass rates L1:100% L2:100% L3:99% L4:100% | 274.0s elapsed
+2026-07-04 21:35:53,837 INFO verified 100/162 | pass rates L1:100% L2:100% L3:99% L4:100% | 282.3s elapsed
+2026-07-04 21:36:12,683 INFO verified 120/162 | pass rates L1:100% L2:100% L3:90% L4:100% | 301.2s elapsed
+2026-07-04 21:36:46,259 INFO verified 140/162 | pass rates L1:100% L2:99% L3:86% L4:100% | 334.7s elapsed
+2026-07-04 21:37:25,327 INFO verified 160/162 | pass rates L1:100% L2:99% L3:82% L4:100% | 373.8s elapsed
+2026-07-04 21:37:26,253 INFO verification complete: 162 rows

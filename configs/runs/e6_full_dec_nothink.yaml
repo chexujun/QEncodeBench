@@ -1,0 +1,13 @@
+run_id: e6_full_dec_nothink
+instances_path: data/frozen_v1/instances.jsonl
+solutions_path: data/frozen_v1/solutions.jsonl
+models: [deepseek-v4-flash]
+method: dec_agent
+prompt_variant: verbose
+n_samples: 1
+temperature: 0.7
+run_budget_usd: 3.0
+runs_dir: runs
+task_sample: null
+concurrency: 16
+task_filter: [3sat-T1-s0003, 3sat-T1-s0004, 3sat-T1-s0005, 3sat-T1-s0006, 3sat-T2-s0003, 3sat-T2-s0004, 3sat-T2-s0005, 3sat-T2-s0006, 3sat-T3-s0003, 3sat-T3-s0004, 3sat-T3-s0005, 3sat-T3-s0006, coloring-T1-s0003, coloring-T1-s0004, coloring-T1-s0005, coloring-T1-s0006, coloring-T2-s0004, coloring-T2-s0005, coloring-T2-s0006, coloring-T2-s0007, coloring-T3-s0003, coloring-T3-s0004, coloring-T3-s0005, coloring-T3-s0006, vertex_cover-T1-s0003, vertex_cover-T1-s0004, vertex_cover-T1-s0005, vertex_cover-T1-s0006, vertex_cover-T2-s0003, vertex_cover-T2-s0004, vertex_cover-T2-s0005, vertex_cover-T2-s0006, vertex_cover-T3-s0003, vertex_cover-T3-s0004, vertex_cover-T3-s0005, vertex_cover-T3-s0006, subset_sum-T1-s0003, subset_sum-T1-s0004, subset_sum-T1-s0005, subset_sum-T1-s0006, subset_sum-T2-s0003, subset_sum-T2-s0004, subset_sum-T2-s0005, subset_sum-T2-s0006, subset_sum-T3-s0003, subset_sum-T3-s0004, subset_sum-T3-s0005, subset_sum-T3-s0006, latin_square-T1-s0003, latin_square-T1-s0004, latin_square-T1-s0005, latin_square-T1-s0006, latin_square-T2-s0003, latin_square-T2-s0004, latin_square-T2-s0005, latin_square-T2-s0006, latin_square-T3-s0003, latin_square-T3-s0004, latin_square-T3-s0005, latin_square-T3-s0006, string_match-T1-s0003, string_match-T1-s0004, string_match-T1-s0005, string_match-T1-s0006, string_match-T2-s0003, string_match-T2-s0004, string_match-T2-s0005, string_match-T2-s0006, string_match-T3-s0003, string_match-T3-s0004, string_match-T3-s0005, string_match-T3-s0006]
